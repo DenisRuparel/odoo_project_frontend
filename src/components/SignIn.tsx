@@ -12,7 +12,7 @@ function SignIn() {
   const handleLogin = () => {
     // Here you would typically handle authentication
     console.log('Login attempt:', { email, password });
-    navigate('/');
+    navigate('/dashboard'); // Redirect to dashboard instead of profile
   };
 
   const handleHome = () => {
